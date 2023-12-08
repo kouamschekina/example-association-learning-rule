@@ -1,17 +1,19 @@
-#small bash script to configure gpg
+#small bash script to generate gpg key
 #!/bin/bash
 
 echo "Generating a new GPG key..."
 
-# Setting the email address associated with the GPG key
+# Set the email address associated with the GPG key
 read -p "Enter your email address: " email
 
-# Set the key type and key length
+
+# Setting  the key type and key length
 key_type="RSA"
 key_length="4096"
 
-# Set the expiration period for the key
-expiration="0" # 0 means the key does not expiree
+
+# Setting  the expiration period for the key
+expiration="0" # 0 means the key does not expire
 
 # Generate the GPG key
 gpg --batch --full-generate-key <<EOF

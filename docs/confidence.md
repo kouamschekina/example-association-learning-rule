@@ -1,4 +1,4 @@
-# Support
+# Confidence
 
 In association rules mining, the confidence help to measure the 
 likelihood of occurrence of an itemset given another itemset.

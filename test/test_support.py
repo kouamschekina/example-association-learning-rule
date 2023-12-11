@@ -1,5 +1,4 @@
 import unittest
-
 from src.support import support as calc_support
 
 

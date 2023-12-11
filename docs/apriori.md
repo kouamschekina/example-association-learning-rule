@@ -1,4 +1,4 @@
-# Support
+# Apriori
 
 In association rules mining, the aprori help to find all frequent 
 itemsets in a dataset and generate strong association rules.

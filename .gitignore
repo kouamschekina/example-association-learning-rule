@@ -5,3 +5,4 @@ venv
 *.pyo
 **/*__pycache__
 *.iml
+*.zip
